@@ -4,11 +4,13 @@ import { motion } from "framer-motion";
 import { PROJECTS } from "@/data/projects";
 import { FlowmanIcon } from "./icons/FlowmanIcon";
 import { OrbisIcon } from "./icons/OrbisIcon";
+import { StudyMasterIcon } from "./icons/StudyMasterIcon";
 import type { ReactNode } from "react";
 
 const PROJECT_ICONS: Record<string, ReactNode> = {
   flowman: <FlowmanIcon />,
   orbis: <OrbisIcon />,
+  studymaster: <StudyMasterIcon />,
 };
 
 function LinkIcon({ href }: { href: string }) {

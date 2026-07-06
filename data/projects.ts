@@ -16,6 +16,26 @@ export type Project = {
 
 export const PROJECTS: Project[] = [
   {
+    id: "studymaster",
+    title: "StudyMaster",
+    subtitle: "AI-Powered Semester Planner",
+    year: 2026,
+    description:
+      "An AI-powered web app that turns uploaded syllabi, schedules, and assignment lists into an organized semester plan with deadlines, tasks, and tailored study recommendations.",
+    bullets: [
+      "Uses Google Gemini to extract deadlines, exams, tasks, and topics from PDF and DOCX course documents",
+      "Builds prioritized course timelines and AI-generated study plans for assignments and exams",
+      "Supports private user accounts, course management, and task tracking through a React and Express application",
+    ],
+    tech: ["React", "Express", "MongoDB", "Google Gemini", "Tailwind CSS"],
+    links: [
+      { label: "Live Demo", href: "https://study-master-pi.vercel.app" },
+      { label: "GitHub", href: "https://github.com/WadoodAbdul25/StudyMaster" },
+    ],
+    badge: "AI Study Planner",
+    accentColor: "#7C3AED",
+  },
+  {
     id: "gryffin",
     title: "Gryffin",
     subtitle: "AI-Powered Development Pipeline",
